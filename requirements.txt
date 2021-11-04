@@ -1,0 +1,8 @@
+Библиотеки : flask(Руководство по установке : https://flask.palletsprojects.com/en/1.1.x/installation/)
+Установлены доп. модули : insides.py
+В insides.py хранятся все функции, список пользователей и история сообщений.
+
+Вызов всех необходимых модулей и библиотек(Вставляем в начало программы main.py):
+
+from flask import Flask, render_template
+from insides import worklist, create, reading, update, delete
